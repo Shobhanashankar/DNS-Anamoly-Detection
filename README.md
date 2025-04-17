@@ -26,7 +26,13 @@ pip install scapy pandas numpy joblib matplotlib seaborn scikit-learn
 ---
 
 ## 📁 Dataset
-Use a `.txt` file named `opendns-top-domains.txt` that contains one domain name per line:
+
+The domain dataset used for this project is sourced from the official [OpenDNS Public Domain Lists](https://github.com/opendns/public-domain-lists/blob/master/opendns-top-domains.txt).  
+This list includes the most commonly queried domains across OpenDNS's global network and is used to simulate **benign DNS traffic**.
+
+Save the file as `opendns-top-domains.txt`, where each line should contain one domain:
+
+
 
 ```
 google.com
